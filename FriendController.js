@@ -1,6 +1,5 @@
 angular.module("app").controller('FriendController',function($scope){
-  var sortPropVar = sortProp
-  var sortDirectionVar = sortDirection
+  $scope.optionsArray = [{name: 'Name', value: 'name'},{name: '#Friends', value: 'friends_count'},{name: 'City', value: 'current_location.city'},{name: 'State', value: 'current_location.state'},{name: 'Country', value: 'current_location.country' }]
   $scope.friends = [
     {
       "name": "Preston McNeil",
